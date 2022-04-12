@@ -1,4 +1,4 @@
-package com.company;
+package com.company.datastructures;
 
 import java.util.Collections;
 

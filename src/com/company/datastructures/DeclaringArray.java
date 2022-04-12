@@ -1,4 +1,4 @@
-package com.company;
+package com.company.datastructures;
 
 public class DeclaringArray {
     public static void main(String[] args) {
