@@ -1,5 +1,7 @@
 package com.company.methods;
 
+import com.company.methods.MathOperations;
+
 public class Calculator {
 
     public static void main(String[] args) {
