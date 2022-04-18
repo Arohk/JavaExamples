@@ -1,16 +1,16 @@
 package com.company.constructorsandexceptions;
 
-public class Child extends Person {
+public class ChildSubClass extends PersonSuperclass {
 
     private String childName;
 
-    Child() {
+    ChildSubClass() {
         super("John");
         this.childName = name;
     }
 
     public static void main(String[] args) {
-        Child myChild = new Child();
+        ChildSubClass myChild = new ChildSubClass();
         System.out.println(myChild.childName);
     }
 }

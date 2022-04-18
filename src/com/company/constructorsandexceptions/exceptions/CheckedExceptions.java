@@ -6,7 +6,7 @@ import java.io.FileReader;
 
 public class CheckedExceptions {
 
-    public static void main(String args[]) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException {
         File file = new File("E://file.txt");
         FileReader fr = new FileReader(file);
     }
