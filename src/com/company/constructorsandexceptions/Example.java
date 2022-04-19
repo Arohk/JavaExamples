@@ -1,7 +1,13 @@
 package com.company.constructorsandexceptions;
 
 public class Example {
-    public static void main(String[] args) {
+    private int myInt;
 
+    Example() {
     }
+
+    Example(int myInt) {
+        this.myInt = myInt;
+    }
+
 }

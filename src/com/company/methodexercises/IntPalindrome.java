@@ -1,4 +1,4 @@
-package com.company.methodsexercises;
+package com.company.methodexercises;
 
 public class IntPalindrome {
 

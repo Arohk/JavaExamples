@@ -13,5 +13,10 @@ class Employee {
 
     public Employee(String first, String last) {
         this(first, last, 1990);
+        // some code here.
+    }
+
+    public static void main(String[] args) {
+        Employee myEmployee = new Employee("John", "Atanasov");
     }
 }

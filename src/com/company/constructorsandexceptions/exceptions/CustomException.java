@@ -7,10 +7,13 @@ public class CustomException {
 }
 
 class MyException extends Exception {
+
+    // Constructor 1
     public MyException(String errorMessage){
         super(errorMessage);
     }
 
+    // Constructor 2
     public MyException() {
         System.out.println("Default exception message.");
     }

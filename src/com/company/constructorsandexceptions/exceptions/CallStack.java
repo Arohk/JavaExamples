@@ -14,12 +14,14 @@ class NestedExceptionsExample {
         try {
             System.out.println("hello");
             notThrowit();
-        } catch (Exception e) {
+        } catch (RuntimeException e) {
             System.out.println("caught");
         } finally {
             System.out.println("finally");
         }
-        System.out.println("after");
+
+        System.out.println("after out of finally block");
+
     }
 }
 
