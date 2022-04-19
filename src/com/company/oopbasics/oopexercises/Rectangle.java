@@ -1,8 +1,8 @@
 package com.company.oopbasics.oopexercises;
 
 public class Rectangle extends Shapes{
-    Double sideA;
-    Double sideB;
+    private Double sideA;
+    private Double sideB;
 
     public Rectangle(Double sideA, Double sideB) {
         this.sideA = sideA;
