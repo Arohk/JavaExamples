@@ -1,8 +1,14 @@
 package com.company.oopbasics;
 
+import java.util.ArrayList;
+import java.util.List;
+
+interface MyInterface{
+    void myMethod();
+}
 // Abstract class
-abstract class Shape {
-    // Abstract method (does not have a body)
+abstract class Shape implements MyInterface{
+    // Abstract method (does not have a body and their implementation is provided later on)
     abstract void numberOfSides();
 
     // Regular method
@@ -13,9 +19,15 @@ abstract class Shape {
 
 // Subclass (inherit from Shape)
 class Triangle extends Shape {
-    public void numberOfSides() {
-        // The body of Shape() is provided here
+
+    @Override
+    void numberOfSides() {
         System.out.println("I have 3 sides!");
+    }
+
+    @Override
+    public void myMethod() {
+
     }
 }
 
@@ -25,4 +37,5 @@ class MyShapeClass {
         myTriangle.numberOfSides();
         myTriangle.whatAmI();
     }
+
 }

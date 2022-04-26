@@ -19,7 +19,7 @@ import java.util.Scanner;
         }
         public static void main(String[] args) throws IOException {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Enter file path:");
+            System.out.println("Enter file destination path:");
             String filePath = scanner.nextLine();
             System.out.println("Enter int for how many times:");
             int howManyTimesToPrintTheTextToFile = scanner.nextInt();

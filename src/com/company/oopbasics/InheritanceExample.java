@@ -23,12 +23,12 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
+    private int numberOfDoors;
+
     Car(String brand, String model, double length, double width, double weight, int numberOfDoors) {
         super(brand, model, length, width, weight);
         this.numberOfDoors = numberOfDoors;
     }
-
-    private int numberOfDoors;
 
     private boolean doorClosed = true;
 
